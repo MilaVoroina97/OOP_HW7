@@ -2,8 +2,8 @@ from HW7.AbstractClasses.Wild import Wild
 
 
 class Tiger(Wild):
-   def __init__(self, name, height, weight, colorEye, habitat, birthDate):
-      super(Tiger, self).__init__(name, height, weight, colorEye, habitat, birthDate)
+   def __init__(self,height, weight, colorEye, habitat, birthDate):
+      super(Tiger, self).__init__(height, weight, colorEye, habitat, birthDate)
    
    def makeNoise(self):
         print(f"{super().makeNoise()}  РРРррр")

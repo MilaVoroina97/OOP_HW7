@@ -3,9 +3,9 @@ from HW7.Interfaces.Leader import Leader
 
 
 class Wolf(Wild,Leader):
-    def __init__(self, name, height, weight, colorEye, habitat, birthDate, leader):
+    def __init__(self,height, weight, colorEye, habitat, birthDate, leader):
       self.leader = leader
-      super(Wolf, self).__init__(name, height, weight, colorEye, habitat, birthDate)
+      super(Wolf, self).__init__(height, weight, colorEye, habitat, birthDate)
    
     def makeNoise(self):
         print(f"{super().makeNoise()} уууУУУ")
