@@ -1,3 +1,3 @@
-from UI import ConsoleView
+from UserInterface import ConsoleView
 
 ConsoleView.start()
